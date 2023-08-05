@@ -1,0 +1,14 @@
+.ui-btn {
+    padding: 10px 40px;
+    cursor: pointer;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+.ui-btn:hover{
+    color: red;
+    font-size: medium;
+}

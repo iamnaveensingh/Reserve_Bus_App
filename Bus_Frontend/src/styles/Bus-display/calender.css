@@ -1,0 +1,11 @@
+.Calender-date {
+    font-family: sans-serif;
+    padding: 1px;
+    background: white;
+    width: 100%;
+    float: left;
+}
+
+.Calender-date:hover {
+    color: rgb(255, 162, 0);
+}

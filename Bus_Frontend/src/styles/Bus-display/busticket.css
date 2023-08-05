@@ -1,0 +1,48 @@
+.bus-ticket-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border: 2px solid grey;
+    width: 40%;
+    min-height: 235px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.bus-ticket-heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.heading {
+    text-align: center;
+}
+
+.destination {
+    font-size: 14px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination,
+.right-part,
+.seat-number,
+.fare-price {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.destination-sub-heading {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.proceed-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

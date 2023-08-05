@@ -1,0 +1,92 @@
+.bus-card {
+    width: 100%;
+    min-height: 130px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    ;
+}
+
+.bus-card-content {
+    display: flex;
+}
+
+.bus-card-left {
+    padding: 10px 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0px solid rgb(0, 0, 0);
+}
+
+.bus-heading {
+    display: flex;
+    align-items: center;
+}
+
+.bus-heading p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.bus-card-rating {
+    width: 50px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bus-details {
+    font-size: 12px;
+}
+
+.bus-itinerary .bus-destination {
+    font-weight: 600;
+}
+
+.bus-actions {
+    font-size: 30px;
+}
+
+.bus-actions span {
+    margin-right: 35px;
+    font-size: medium;
+    font-weight: 350;
+    cursor: pointer;
+}
+
+.bus-card-right {
+    width: 20%;
+    border-left: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.bus-right-text {
+    font-size: 12px;
+}
+
+.bus-cost {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.bus-price {
+    font-size: 22px;
+    font-weight: 700;
+}

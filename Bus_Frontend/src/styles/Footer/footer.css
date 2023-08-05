@@ -1,0 +1,76 @@
+.container {
+    background-color: #4444454a;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.row {
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.all-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-col h4 {
+    font-size: larger;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+    color: #000000;
+}
+
+.footer-col .social-links a {
+    padding: 1%;
+    font-size: 25px;
+    color: black;
+    position: relative;
+    left: 5%;
+    margin-left: 5%;
+}
+
+.footer-col .social-links a:hover {
+    color: #FA7D09;
+}
+
+.footer-col a:hover {
+    color: #FA7D09;
+}
+
+.footer-text {
+    font-size: x-large;
+    font-weight: bolder;
+    float: left;
+    padding: 1% 1% 1% 5%;
+}
+
+.footer-text p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 28px;
+}
+
+.logo_bus {
+    color: #FA7D09;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.all-content .footer-col {
+    padding-left: 5%;
+    color: black;
+}

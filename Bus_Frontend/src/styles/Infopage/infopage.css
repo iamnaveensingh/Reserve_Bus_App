@@ -1,0 +1,101 @@
+.info-page-container {
+    display: flex;
+}
+
+.info-page-left {
+    width: 60%;
+}
+
+.travel-details {
+    padding: 10px 20px;
+}
+
+.travel-details-heading {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.passenger-details span {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.details-input {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    padding-right: 20px;
+}
+
+.details-input label {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.details-input input {
+    height: 30px;
+}
+
+.upper-input,
+.lower-input {
+    display: flex;
+    margin: 20px 0;
+}
+
+.bus-card-container {
+    padding: 20px;
+    border: 2px solid gray;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.info-page-left {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.travel-details-input {
+    border: 2px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info-page-right {
+    width: 40%;
+    padding: 20px 40px;
+}
+
+.fare-details-container {
+    width: 95%;
+    min-height: 200px;
+    border: 2px solid grey;
+    padding: 10px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.fare-detail-container {
+    border-bottom: 2px solid grey;
+}
+
+.fare-detail {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.fare-amt {
+    font-weight: 600;
+}
+
+.fare-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
